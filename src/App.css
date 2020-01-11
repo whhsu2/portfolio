@@ -2,37 +2,145 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  height: auto;
+  width: auto;
+  overflow: auto;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.links {
+  padding-top: 70;
+  font-size: 55px;
+  padding: 100;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20vw;
+}
+
+.links a i:hover {
+  color: var(--white);
+  font-size: 45px;
+  width: 55px;
+  height: 55px;
+  border: 1px solid color(var(--white) a(0.6));
+  border-radius: 50%;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  transition: all 0.3s ease;
+  background: rgb(218, 179, 164);
+  margin: 10 20px;
+}
+
+.title {
+  text-align: center;
+  border: 3px solid #3E96DD;
+  font-size: 26px;
+  font-weight: 500;
+  padding: 8px 16px;
+  width: 10vw;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  justify-content: space-around;
+}
+
+
+.img-with-text {
+  width: 320px;
+}
+
+.img-with-text img {
+  display: block;
+  margin: 0 auto;
+}
+
+.img-with-text a {
+  color: rgb(19, 19, 179);
+}
+
+.about .image-container {
+  width: 320px;
+  height: 220px;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .8);
+}
+
+.image-container img {
+  width: 320px;
+  height: 220px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-caption {
+  width:100%;
+  height:30%;
+  background:rgba(0, 0, 0, 0.3);
+  position:absolute; 
+  opacity:0;
+  bottom: 0; 
+  left: 0;
+  transition:all 300ms ease-in-out;
+  -webkit-transition:all 300ms ease-in-out;
+  -moz-transition:all 300ms ease-in-out;
+  -o-transition:all 300ms ease-in-out;
+  -ms-transition:all 300ms ease-in-out;
+}
+
+.image-caption h1{
+  text-align:center;
+  margin:10px;
+  text-transform:uppercase;
+  font-family: 'Indie Flower';
+  font-size:10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.image-container:hover .image-caption{
+  opacity:1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about {
+  text-align: center;
+  padding: 40px;
+}
+
+.experience {
+  padding: 40px;
+  background-color: rgb(212, 206, 206);
+  text-align: left;
+}
+
+.projects {
+  padding: 40px;
+  text-align: center;
+}
+
+.projects p {
+  font-size: large;
+}
+
+.interests {
+  padding: 40px;
+  background-color: rgb(212, 206, 206);
+}
+
+.nav-button {
+  padding: 5px;
+  transition: 0.3s;
+}
+
+.nav-button:hover {
+  color: rgb(151, 42, 165);
 }

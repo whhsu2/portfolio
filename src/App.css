@@ -27,8 +27,6 @@ body {
 .links a i:hover {
   color: #5F8FBB;
   font-size: 45px;
-  width: 55px;
-  height: 55px;
   border: 1px solid color(var(--white) a(0.6));
   border-radius: 50%;
   display: inline-flex;

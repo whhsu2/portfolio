@@ -7,10 +7,11 @@ const styles = {
     images: {
         display: "flex",
         flexDirection: "row",
-        justifyContent: "space-between",
-        width: "80vw",
+        flexWrap: "wrap",
+        justifyContent: "space-evenly",
+        alignContent: "space-around",
         margin: "40px auto"
-    },
+    }
 };
 
 const About = () => {
@@ -20,7 +21,7 @@ const About = () => {
             <div className="title">My About</div>
             <div style = {classes.images}>
                 <div className="image-container">
-                    <img src={HDS} alt="Health Data Science"></img>
+                    <img style={classes.img} src={HDS} alt="Health Data Science" ></img>
                     <div className="image-caption">
                         <h1>Harvard Health Data Science class of 2019. A great great group of people</h1>
                     </div>
@@ -36,8 +37,7 @@ const About = () => {
                     <div className="image-caption">
                         <h1>Friends</h1>
                     </div>
-                </div>
-                
+                </div> 
             </div>
             <p>I just graduated from Harvard Health Data Science program and currently am working at Aetna as a Data Engineer.
                I am interested in the intersection of technology and healthcare to provide healthier future. In addition to work, 

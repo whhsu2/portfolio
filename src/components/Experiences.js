@@ -20,7 +20,10 @@ const imgStyle = {
 const Experiences = () => {
     return (
         <div className="experience">
-            <div className="title">Experiences</div>
+            <div style={{textAlign: "center"}}> 
+                <div className="title">Experiences</div>
+            </div>
+
             <VerticalTimeline style={vertical}>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"

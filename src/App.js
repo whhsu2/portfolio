@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactGA from "react-ga"
 import About from './components/About'
 import Menu from './components/Menu'
 import Experiences from './components/Experiences'

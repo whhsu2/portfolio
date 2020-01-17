@@ -72,7 +72,6 @@ const Experiences = () => {
                     <h4 className="vertical-timeline-element-subtitle">iGEM competition</h4>
                     <ul>
                         <li>Topic: Design pre-diagnosis for targeted drug.</li>
-                        <li>Award: Gold Medal</li>
                         <li>Research: Synthesize Transmembrane protein + 3 different tumor antibody (anti-HER2, 
                         anti-EGFR, anti-VEGFR) + color protein, and produce the synthesized protein with E.coli. 
                         Used as pre-diagnosis markers for targeted drug. </li>

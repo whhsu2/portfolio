@@ -12,7 +12,6 @@ body {
 
 .links {
   padding-top: 70;
-  font-size: 55px;
   padding: 100;
   display: flex;
   flex-direction: row;
@@ -20,8 +19,13 @@ body {
   width: 20vw;
 }
 
+.links a {
+  text-decoration: none;
+}
+
+
 .links a i:hover {
-  color: var(--white);
+  color: #5F8FBB;
   font-size: 45px;
   width: 55px;
   height: 55px;
@@ -31,8 +35,13 @@ body {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-  background: rgb(218, 179, 164);
-  margin: 10 20px;
+  margin: 15 20px;
+}
+
+.link {
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #ccc;
 }
 
 .title {

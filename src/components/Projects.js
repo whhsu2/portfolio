@@ -17,14 +17,14 @@ const Projects = () => {
                     <div className="img-with-text">
                         <img style={imgStyle} src={slither} alt="Slither"></img>
                         <h2>Slither.io</h2>
-                        <a href="https://github.com/whhsu2/slither.io_ReinforcementLearning" target="_blank" rel="noopener noreferrer">github</a>
+                        <a href="https://github.com/whhsu2/slither.io_ReinforcementLearning" target="_blank" rel="noopener noreferrer" style={{fontWeight: "bold"}}>github</a>
                         <p>I implemented a reinforcement learning agent using OpenAI's Universe and Gym libraries to 
                          play an online multi-player game - <a href="http://slither.io/" target="_blank" rel="noopener noreferrer">Slither.io</a> </p>
                     </div>
                     <div className="img-with-text">
                         <img style={imgStyle} src={pap} alt="Pap Smear"></img>
                         <h2>Image Classification for Pap Smear</h2>
-                        <a href="https://github.com/whhsu2/Pap-Smear" target="_blank" rel="noopener noreferrer">github</a>
+                        <a href="https://github.com/whhsu2/Pap-Smear" target="_blank" rel="noopener noreferrer" style={{fontWeight: "bold"}}>github</a>
                         <p>This project trains Convolutional Neural Network (CNN) models with the publicly available image dataset SIPaKMeD 
                             to classify normal/abnormal papsmear results.</p>
                     </div>

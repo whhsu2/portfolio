@@ -78,6 +78,7 @@ const Experiences = () => {
                         <li>Research: Synthesize Transmembrane protein + 3 different tumor antibody (anti-HER2, 
                         anti-EGFR, anti-VEGFR) + color protein, and produce the synthesized protein with E.coli. 
                         Used as pre-diagnosis markers for targeted drug. </li>
+                        <li><a href="http://2015.igem.org/Team:NCTU_Formosa">Project Website</a></li>
                     </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

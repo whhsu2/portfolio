@@ -21,7 +21,7 @@ const About = () => {
             <div className="title">My About</div>
             <div style = {classes.images}>
                 <div className="image-container">
-                    <img style={classes.img} src={HDS} alt="Health Data Science" ></img>
+                    <img src={HDS} alt="Health Data Science" ></img>
                     <div className="image-caption">
                         <h1>Harvard Health Data Science class of 2019. A great great group of people</h1>
                     </div>
@@ -39,9 +39,17 @@ const About = () => {
                     </div>
                 </div> 
             </div>
-            <p>I just graduated from Harvard Health Data Science program and currently am working at Aetna as a Data Engineer.
-               I am interested in the intersection of technology and healthcare to provide healthier future. In addition to work, 
-               I'm currently learning piano, hopefully to become a jazz pianist one day.</p>
+            <div className="me">
+                <p>I just graduated from Harvard Health Data Science program and currently am working at Aetna as a Data Engineer.
+                I am interested in the intersection of technology and healthcare to provide healthier future. In addition to work, 
+                I'm currently learning piano, hopefully to become a jazz pianist one day.</p>
+                <p>
+                    <a href="https://drive.google.com/open?id=1PQM_YIBgDa_5FwIjuSnJA5nOODuhd9dG">Resume</a>
+                </p>
+                
+            </div> 
+
+            
         </div>
         
     )

@@ -1,40 +1,46 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ScrollIntoView from 'react-scroll-into-view'
 
-const MenuStyles = {
-    menu: {
-        position: "fixed",
-        width: "100vw",
-        height: "30px",
-        top: 0,
-        display: "flex",
-        justifyContent: "space-around",
-        alignItems: "left",
-        background: "rgb(60, 93, 00)", 
-        color: "black",
-        zIndex: 100,
-        opacity: 100,
-        backgroundColor: "rgba(255,255,255,0.5)",
-    },
-    menuLink: {
-        width: "40%",
-        display: "flex",
-        justifyContent: "space-around",
-        alignItems: "center",
-        listStyle: "none",
-        fontFamily: "Georgia, serif",
-        fontWeight: "bold",
-    },
-}
+class Menu extends Component {
+    constructor() {
+        super();
+        
+        this.state = {
+          showMenu: false,
+        };
+        
+        this.showMenu = this.showMenu.bind(this);
+        this.closeMenu = this.closeMenu.bind(this);
+      }
+      
+      showMenu(event) {
+        event.preventDefault();
+        
+        this.setState({ showMenu: true }, () => {
+          document.addEventListener('click', this.closeMenu);
+        });
+      }
+      
+      closeMenu() {
+        this.setState({ showMenu: false }, () => {
+          document.removeEventListener('click', this.closeMenu);
+        });
+      }
 
-const Menu = () => {
-    const classes = MenuStyles
+  render() {
+    console.log(this.state.showMenu)
     return (
-            <header style={classes.menu}>
-            <ul style={classes.menuLink}>
+      <div className="dropdown">
+        <button className="dropbtn" onClick={this.showMenu}>
+        ☰
+        </button>
+        {
+          this.state.showMenu
+            ? (
+              <div className="dropdown-content">
                 <ScrollIntoView className="nav-button" selector=".about">
                         About
-                </ScrollIntoView>              
+                </ScrollIntoView>    
                 <ScrollIntoView className="nav-button" selector=".experience">
                         Experiences
                 </ScrollIntoView>
@@ -44,9 +50,15 @@ const Menu = () => {
                 <ScrollIntoView className="nav-button" selector=".interests">
                         Interests
                 </ScrollIntoView>
-            </ul>
-        </header>
-    )
+              </div>
+            )
+            : (
+              null
+            )
+        }
+      </div>
+    );
+  }
 }
 
 export default Menu;

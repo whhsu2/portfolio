@@ -109,7 +109,7 @@ body {
   text-align:center;
   margin:10px;
   text-transform:uppercase;
-  font-family: 'Indie Flower';
+  font-family: Oxygen,Open Sans,sans-serif;
   font-size:10px;
   color: white;
 }
@@ -171,16 +171,56 @@ body {
   font-size: large;
 }
 
+.projects a {
+  text-decoration: none;
+}
+
 .interests {
   padding: 40px;
   background-color: rgb(212, 206, 206);
 }
 
-.nav-button {
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  z-index: 100;
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  top: 40px;
+  left: calc(50% - 540px);
+  border: 1px solid color(var(--white) a(1));
+  border-radius: 3px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: teal;
+  min-width: 160px;
+  z-index: 100; 
+}
+
+.dropdown-content .nav-button {
+  color: black;
   padding: 5px;
   transition: 0.3s;
 }
 
-.nav-button:hover {
+.dropdown-content .nav-button:hover {
   color: rgb(124, 157, 226);
 }

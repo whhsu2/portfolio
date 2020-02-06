@@ -13,8 +13,8 @@ const vertical= {
 
 const imgStyle = {
     borderRadius: "50%",
-    width: 58,
-    height: 58,
+    width: "100%",
+    height: "100%",
 };
 
 const Experiences = () => {

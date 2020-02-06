@@ -1,6 +1,7 @@
 import React from 'react';
 import mount from '../assets/mount2.jpg'
 import profile from '../assets/profile.png'
+import Menu from './Menu'
 import { gray } from 'ansi-colors';
 
 const HeaderStyle = {
@@ -27,6 +28,7 @@ const Header = () => {
     const classes = HeaderStyle
     return (
         <div style={classes.background}>
+            <Menu />
             <img style = {classes.imgStyle} src={profile} alt="Avatar"/>
             <h1 style={{fontFamily: "Oxygen,Open Sans,sans-serif", marginBottom: "-5px", color: "#004466"}}>Morris Hsu</h1>
             <div style={{ paddingTop: "12px",paddingBottom: "25px", fontSize: 15, fontFamily: "Oxygen,Open Sans,sans-serif", color: "#004466" }}>Just a Kid from Taiwan</div>

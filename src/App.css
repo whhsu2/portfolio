@@ -11,6 +11,19 @@ body {
   align-items: center;
 }
 
+.header {
+  background: url('./assets/mount2.jpg');
+  background-size: cover;
+  box-shadow:inset 0 0 0 2000px rgba(96, 153, 218, 0.3);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .links {
   padding-top: 70;
   padding: 100;
@@ -71,6 +84,12 @@ body {
 
 .img-with-text a {
   color: rgb(19, 19, 179);
+}
+
+.img-with-text p {
+  position: relative;
+  left: 20px;
+  text-align: left;
 }
 
 .about .image-container {
@@ -185,42 +204,61 @@ body {
   z-index: 100;
   position: absolute;
   display: inline-block;
-  width: 40px;
-  height: 30px;
-  top: 40px;
-  left: calc(50% - 540px);
-  border: 1px solid color(var(--white) a(1));
-  border-radius: 3px;
+  width: 60px;
+  height: 40px;
+  top: 50px;
+  left: 50px;
 }
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #3498DB;
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  position: absolute;
   color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+  font-size: xx-large;
   cursor: pointer;
+  outline: none;
 }
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
+  background-color: white;
+  color:  rgb(124, 157, 226);
+  transition: ease-in-out 1s;
 }
 
 .dropdown-content {
-  position: absolute;
-  background-color: teal;
-  min-width: 160px;
+  text-align: left;
+  display: none;
   z-index: 100; 
+  transition: all 0.5s linear;
+  opacity: 0;
+  position: relative;
+  top: 70px; left: 20px;
 }
 
 .dropdown-content .nav-button {
-  color: black;
-  padding: 5px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .dropdown-content .nav-button:hover {
   color: rgb(124, 157, 226);
+}
+
+.overlay {
+  position: absolute;
+  content:"";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  opacity:0;
+  background-color: red;
 }

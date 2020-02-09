@@ -1,6 +1,6 @@
 import React from 'react';
 import slither from '../assets/slither.gif'
-import pap from '../assets/pap.bmp'
+import pap from '../assets/pap.png'
 
 const imgStyle = {
     borderRadius: "50%",

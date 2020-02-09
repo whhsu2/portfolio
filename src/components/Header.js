@@ -5,17 +5,6 @@ import Menu from './Menu'
 import { gray } from 'ansi-colors';
 
 const HeaderStyle = {
-    background: {
-        background: `url(${mount})`,
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        width: "100vw",
-        height: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-    },
     imgStyle: {
         borderRadius: "50%",
         boxShadow: "0 0 8px 0 rgba(255, 255, 255, .3)",
@@ -27,7 +16,7 @@ const HeaderStyle = {
 const Header = () => {
     const classes = HeaderStyle
     return (
-        <div style={classes.background}>
+        <div class="header">
             <Menu />
             <img style = {classes.imgStyle} src={profile} alt="Avatar"/>
             <h1 style={{fontFamily: "Oxygen,Open Sans,sans-serif", marginBottom: "-5px", color: "#004466"}}>Morris Hsu</h1>

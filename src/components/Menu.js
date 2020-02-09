@@ -14,6 +14,7 @@ class Menu extends Component {
       }
       
       showMenu = (event) => {
+        document.removeEventListener("transitionend", this.changeDisplay)
         let drop = document.getElementById("drop-content");
         drop.style.display = "block";
         setTimeout(function () {
@@ -25,11 +26,7 @@ class Menu extends Component {
       closeMenu = (event) => {
         let drop = document.getElementById("drop-content");
         drop.style.opacity = 0;
-        if (drop.style.direction === "display") {
-          drop.addEventListener("transitionend", function(e) {
-            drop.style.display = "none";
-          })
-        }
+        drop.style.display = "none"
         document.removeEventListener('click', this.closeMenu);
       }
 

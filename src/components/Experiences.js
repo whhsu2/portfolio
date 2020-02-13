@@ -26,17 +26,6 @@ const Experiences = () => {
 
             <VerticalTimeline style={vertical}>
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
-                    date="2019.12 - 2020.2"
-                    iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
-                    icon={<img style = {imgStyle} src={milkjob} alt="Avatar"/>}
-                >
-                    <h3 className="vertical-timeline-element-title">Front End Development &amp; Sales</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Milk Job</h4>
-                    <p>
-                    </p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="2019.6 - 2019.8"
                     iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
@@ -61,7 +50,7 @@ const Experiences = () => {
                     <ul>
                         <li>Started a basketball Fanpage with my brother that reached 39,000 likes on Facebook.</li>
                         <li>First Taiwanese basketball fanpage to interview an ESPN analyst.</li>
-                        <li>Wrote basketball blog post and recorded podcast.</li>
+                        <li>Distributed our content on Youtube, Podcast, BlogPost</li>
                     </ul>
 
                 </VerticalTimelineElement>
@@ -71,14 +60,14 @@ const Experiences = () => {
                     iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
                     icon={<img style = {imgStyle} src={igem} alt="Avatar"/>}
                 >
-                    <h3 className="vertical-timeline-element-title">Lab Associate &amp; Key Presenter</h3>
+                    <h3 className="vertical-timeline-element-title">Researcher &amp; Key Presenter</h3>
                     <h4 className="vertical-timeline-element-subtitle">iGEM competition</h4>
                     <ul>
-                        <li>Topic: Design pre-diagnosis for targeted drug.</li>
-                        <li>Research: Synthesize Transmembrane protein + 3 different tumor antibody (anti-HER2, 
-                        anti-EGFR, anti-VEGFR) + color protein, and produce the synthesized protein with E.coli. 
-                        Used as pre-diagnosis markers for targeted drug. </li>
                         <li><a href="http://2015.igem.org/Team:NCTU_Formosa">Project Website</a></li>
+                        <li>Topic: Design pre-diagnosis for targeted drug.</li>
+                        <li>Improve precision of breast cancer targeted drugs by producing synthesized protien with E.coli as 
+                            pre-diagnosis markers.
+                        </li>
                     </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -91,8 +80,7 @@ const Experiences = () => {
                     <h4 className="vertical-timeline-element-subtitle">Simplo Technology</h4>
                     <ul>
                         <li>Simplo currently has the most share of the global market of batteries and they are also the major supplier of Apple.</li>
-                        <li>In the R&amp;A (research and assurance) department. I organized and checked battery cells (Used SEM/EDS analysis to analyze the elements on the jelly rolls of the battery).</li>
-                        <li>In the R&amp;D (research and development), I designed a circuit board for a lithium battery.</li>
+                        <li>Designed circuit boards for a lithium battery and performed full battery quality check.</li>
                     </ul>
                 </VerticalTimelineElement>
             </VerticalTimeline>

@@ -12,7 +12,7 @@ class Menu extends Component {
         this.showMenu = this.showMenu.bind(this);
         this.closeMenu = this.closeMenu.bind(this);
       }
-      
+
       showMenu = (event) => {
         document.removeEventListener("transitionend", this.changeDisplay)
         let drop = document.getElementById("drop-content");
@@ -26,7 +26,7 @@ class Menu extends Component {
       closeMenu = (event) => {
         let drop = document.getElementById("drop-content");
         drop.style.opacity = 0;
-        drop.style.display = "none"
+        drop.style.display = "none";
         document.removeEventListener('click', this.closeMenu);
       }
 

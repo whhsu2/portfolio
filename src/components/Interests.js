@@ -32,7 +32,7 @@ const Interests = () => {
                             <li>Below are some books that influenced how I think about the world and my life:</li>
                             <li><a href="https://www.amazon.com/War-Normal-People-Disappearing-Universal/dp/0316414247">The War on Normal People by Andrew Yang: </a>
                             As AI and automation start to replace most of the job we know of, Andrew one of the 2020 Democratic presidential candidates, proposed we implement Universal Basic Income to address
-                            the problems of the 21st century. The book invoked me to think about some fundamental questions that challenge my world view. Is GDP the best way to measure how the economy is doing ? 
+                            the problems of the 21st century. The book invoked me to think about some fundamental questions that challenged my world view. Is GDP the best way to measure how the economy is doing ? 
                             What are the metrics that actually reflect the well-being of normal people ? What are the problems that arise with technological disruption? 
                             </li>
                             <li><a href="https://gettingthingsdone.com/">Getting Things Done by David Allen: </a>A book about how to be more productive and organized. One key take away 

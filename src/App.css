@@ -191,6 +191,19 @@ a {
   font-weight: bold;
 }
 
+.experience .check {
+  position: relative;
+  margin: 5px;
+  top: -8px;
+}
+ 
+.experience li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
 .projects {
   padding: 40px;
   text-align: center;

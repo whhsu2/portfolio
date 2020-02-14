@@ -6,6 +6,7 @@ import igem from '../assets/igem.png'
 import gaj from '../assets/gaj.png'
 import aetna from '../assets/aetna.jpeg'
 import milkjob from '../assets/milkjob.jpg'
+import CheckBoxIcon from '@material-ui/icons/CheckBox';
 
 const vertical= {
     textAlign: "left"
@@ -34,9 +35,9 @@ const Experiences = () => {
                     <h3 className="vertical-timeline-element-title">Data Engineer</h3>
                     <h4 className="vertical-timeline-element-subtitle">Aetna: Analytic &amp; Behavioral Change</h4>
                     <ul>
-                        <li>Implemented Multi-Armed-Bandit Algorithm to dynamically allocate members to better performing email subject lines.</li>
-                        <li>Developed ETL pipelines using Pyspark to transform member data and stored member and system data with Hive and MySQL.</li>
-                        <li>Increased cost saving per email of $52 by launching our project into production.</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon> Implemented Multi-Armed-Bandit Algorithm to dynamically allocate members to better performing email subject lines.</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Developed ETL pipelines using Pyspark to transform member data and stored member and system data with Hive and MySQL.</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Increased cost saving per email of $52 by launching our project into production.</li>
                     </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -48,9 +49,9 @@ const Experiences = () => {
                     <h3 className="vertical-timeline-element-title">Co-Founder</h3>
                     <h4 className="vertical-timeline-element-subtitle">GAJ - We Love NBA</h4>
                     <ul>
-                        <li>Started a basketball Fanpage with my brother that reached 39,000 likes on Facebook.</li>
-                        <li>First Taiwanese basketball fanpage to interview an ESPN analyst.</li>
-                        <li>Distributed our content on Youtube, Podcast, BlogPost</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Started a basketball Fanpage with my brother that reached 39,000 likes on Facebook.</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>First Taiwanese basketball fanpage to interview an ESPN analyst.</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Distributed our content on Youtube, Podcast, BlogPost</li>
                     </ul>
 
                 </VerticalTimelineElement>
@@ -63,9 +64,9 @@ const Experiences = () => {
                     <h3 className="vertical-timeline-element-title">Researcher &amp; Key Presenter</h3>
                     <h4 className="vertical-timeline-element-subtitle">iGEM competition</h4>
                     <ul>
-                        <li><a href="http://2015.igem.org/Team:NCTU_Formosa">Project Website</a></li>
-                        <li>Topic: Design pre-diagnosis for targeted drug.</li>
-                        <li>Improve precision of breast cancer targeted drugs by producing synthesized protien with E.coli as 
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon><a href="http://2015.igem.org/Team:NCTU_Formosa">Project Website</a></li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Design pre-diagnosis for targeted drug.</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Improve precision of breast cancer targeted drugs by producing synthesized protien with E.coli as 
                             pre-diagnosis markers.
                         </li>
                     </ul>
@@ -79,8 +80,8 @@ const Experiences = () => {
                     <h3 className="vertical-timeline-element-title">R &amp; D Intern</h3>
                     <h4 className="vertical-timeline-element-subtitle">Simplo Technology</h4>
                     <ul>
-                        <li>Simplo currently has the most share of the global market of batteries and they are also the major supplier of Apple.</li>
-                        <li>Designed circuit boards for a lithium battery and performed full battery quality check.</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Simplo currently has the most share of the global market of batteries and they are also the major supplier of Apple.</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Designed circuit boards for a lithium battery and performed full battery quality check.</li>
                     </ul>
                 </VerticalTimelineElement>
             </VerticalTimeline>

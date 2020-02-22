@@ -1,5 +1,5 @@
 import React, {Component, useState} from 'react';
-import ScrollIntoView from 'react-scroll-into-view'
+import {Link} from "react-router-dom";
 
 class Menu extends Component {
     constructor() {
@@ -14,42 +14,32 @@ class Menu extends Component {
       }
 
       showMenu = (event) => {
-        document.removeEventListener("transitionend", this.changeDisplay)
         let drop = document.getElementById("drop-content");
         drop.style.display = "block";
         setTimeout(function () {
           drop.style.opacity = 100;
         }, 2);
-        document.addEventListener('click', this.closeMenu);
+        document.getElementById('dropbtn').addEventListener('click', this.closeMenu);
       }
 
       closeMenu = (event) => {
         let drop = document.getElementById("drop-content");
         drop.style.opacity = 0;
         drop.style.display = "none";
-        document.removeEventListener('click', this.closeMenu);
+        document.getElementById('dropbtn').removeEventListener('click', this.closeMenu);
       }
 
   render() {
     return (
       <div className="dropdown">
-        <button className="dropbtn" onClick={this.showMenu}>
+        <button className="dropbtn" id="dropbtn" onClick={this.showMenu}>
         ☰
         </button>
-          <div className="dropdown-content" id="drop-content">
-            <ScrollIntoView className="nav-button" selector=".about">
-                    About
-            </ScrollIntoView>    
-            <ScrollIntoView className="nav-button" selector=".experience">
-                    Experiences
-            </ScrollIntoView>
-            <ScrollIntoView className="nav-button" selector=".projects">
-                    Projects
-            </ScrollIntoView>
-            <ScrollIntoView className="nav-button" selector=".interests">
-                    Interests
-            </ScrollIntoView>
-          </div>
+            <div className="dropdown-content" id="drop-content">
+              <div><Link className="nav-button" to='/'>Home</Link></div>
+              <div><Link className="nav-button" to='/projectList'>Projects</Link></div>
+              <div><a className="nav-button" href="https://drive.google.com/open?id=1PQM_YIBgDa_5FwIjuSnJA5nOODuhd9dG">Resume</a></div>
+            </div>
       </div>
     );
   }

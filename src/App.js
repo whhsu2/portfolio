@@ -1,23 +1,24 @@
 import React from 'react';
-import ReactGA from "react-ga"
-import About from './components/About'
-import Menu from './components/Menu'
-import Experiences from './components/Experiences'
-import Header from './components/Header'
-import Projects from './components/Projects'
-import Interests from './components/Interests'
+import Home from './components/Home';
+import projectList from './components/projectList'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <About />
-      <Experiences />
-      <Projects />
-      <Interests />
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route path="/" component={Home} exact />
+          <Route path='/projectList' component={projectList} />
+        </Switch>
+      </div>
+    </Router>
   );
-}
-
+};
 export default App;

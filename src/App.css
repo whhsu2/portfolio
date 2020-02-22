@@ -12,7 +12,8 @@ body {
 }
 
 a {
-  color: #3E96DD
+  color: #3E96DD; 
+  text-decoration: none;
 }
 
 .header {
@@ -35,10 +36,6 @@ a {
   flex-direction: row;
   justify-content: space-around;
   width: 20vw;
-}
-
-.links a {
-  text-decoration: none;
 }
 
 .links a i:hover {
@@ -86,10 +83,6 @@ a {
 .img-with-text img {
   display: block;
   margin: 0 auto;
-}
-
-.img-with-text a {
-  color: rgb(19, 19, 179);
 }
 
 .img-with-text p {
@@ -164,7 +157,6 @@ a {
 }
 
 .about a {
-  text-decoration: none;
   font-size: 20px;
   font-weight: 700;
   transition: all 0.6s ease;
@@ -187,7 +179,6 @@ a {
 }
 
 .experience a {
-  text-decoration: none;
   font-weight: bold;
 }
 
@@ -211,10 +202,6 @@ a {
 
 .projects p {
   font-size: large;
-}
-
-.projects a {
-  text-decoration: none;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -268,7 +255,7 @@ a {
     font-weight: bold;
     font-size: small;
     color: white;
-    padding: 10px;
+    margin: 10px;
     transition: 0.3s;
     cursor: pointer;
   }
@@ -309,7 +296,7 @@ a {
   font-weight: bold;
   font-size: large;
   color: white;
-  padding: 10px;
+  margin: 10px;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -373,3 +360,26 @@ a {
   font-size: initial;
 }
 
+.project-content {
+  padding-top: 15vh;
+  margin: auto;
+  width: 80%;
+}
+
+.project-title {
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.project-list {
+  background-color: rgb(212, 206, 206);
+  width: 100vw;
+  height: 100vh;
+}
+
+.project-item {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+}

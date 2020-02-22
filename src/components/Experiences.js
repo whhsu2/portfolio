@@ -5,7 +5,6 @@ import smp from '../assets/smp.jpg'
 import igem from '../assets/igem.png'
 import gaj from '../assets/gaj.png'
 import aetna from '../assets/aetna.jpeg'
-import milkjob from '../assets/milkjob.jpg'
 import CheckBoxIcon from '@material-ui/icons/CheckBox';
 
 const vertical= {

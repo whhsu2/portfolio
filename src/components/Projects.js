@@ -27,8 +27,7 @@ const Projects = () => {
                         <a href="https://github.com/whhsu2/Pap-Smear" target="_blank" rel="noopener noreferrer" style={{fontWeight: "bold"}}>github</a>
                         <p>This project trains Convolutional Neural Network (CNN) models with the publicly available image dataset SIPaKMeD 
                             to classify normal/abnormal papsmear results.</p>
-                    </div>
-                    
+                    </div>                 
                 </div>
             </div>        
     )

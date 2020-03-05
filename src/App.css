@@ -360,6 +360,10 @@ a {
   font-size: initial;
 }
 
+.project-list {
+  background-color: rgb(212, 206, 206);
+}
+
 .project-content {
   padding-top: 15vh;
   margin: auto;
@@ -372,14 +376,15 @@ a {
   margin-bottom: 50px;
 }
 
-.project-list {
-  background-color: rgb(212, 206, 206);
-  width: 100vw;
-  height: 100vh;
-}
-
 .project-item {
-  margin: 30px;
+  padding: 30px;
   display: flex;
   flex-direction: row;
+  justify-content: left;
+}
+
+.project-text {
+  position: relative;
+  text-align: left;
+  top: -10px;
 }

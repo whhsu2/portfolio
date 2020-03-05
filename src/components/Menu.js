@@ -23,9 +23,8 @@ class Menu extends Component {
       }
 
       closeMenu = (event) => {
-        let drop = document.getElementById("drop-content");
-        drop.style.opacity = 0;
-        drop.style.display = "none";
+        let parent = document.getElementById("drop-content");
+        let inner = document.getElementsByClassName("nav-button");
         document.getElementById('dropbtn').removeEventListener('click', this.closeMenu);
       }
 
@@ -36,9 +35,9 @@ class Menu extends Component {
         ☰
         </button>
             <div className="dropdown-content" id="drop-content">
-              <div><Link className="nav-button" to='/'>Home</Link></div>
-              <div><Link className="nav-button" to='/projectList'>Projects</Link></div>
-              <div><a className="nav-button" href="https://drive.google.com/open?id=1PQM_YIBgDa_5FwIjuSnJA5nOODuhd9dG">Resume</a></div>
+              <div style={{marginBottom: "10px"}}><Link className="nav-button" to='/'>Home</Link></div>
+              <div style={{marginBottom: "10px"}}><Link className="nav-button" to='/projectList'>Projects</Link></div>
+              <div style={{marginBottom: "10px"}}><a className="nav-button" href="https://drive.google.com/open?id=1PQM_YIBgDa_5FwIjuSnJA5nOODuhd9dG">Resume</a></div>
             </div>
       </div>
     );

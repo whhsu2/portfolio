@@ -21,26 +21,30 @@ const projectList = () => {
                 <div className="project-item">
                     <img style={imgStyle} src={slither} alt="Slither"></img>
                     <div className="project-text">
-                    <h3>Slither.io</h3><p>I implemented a reinforcement learning agent using OpenAI's Universe and Gym libraries to 
-                            play an online multi-player game - <a href="http://slither.io/" target="_blank" rel="noopener noreferrer">Slither.io</a> </p>
+                    <h3>Slither.io - <a href="https://github.com/whhsu2/slither.io_ReinforcementLearning" target="_blank" rel="noopener noreferrer" style={{fontWeight: "bold"}}>[github]</a></h3>
+                    <p>We implemented a reinforcement learning agent using OpenAI's Universe and Gym libraries to 
+                            play an online multi-player game - <a href="http://slither.io/" target="_blank" rel="noopener noreferrer">Slither.io</a>. The system is split up into 1) image processing and 2) leaning agent implementation. 
+                            We used the OpenAI Universe library for image processing and implemented Approximate Q-Learning, an off-policy, model free algorithm for agent training.
+                            </p>
                     </div>
                 </div>
                 <div className="project-item">
                     <img style={imgStyle} src={pap} alt="Pap Smear"></img>
                     <div className="project-text">
-                    <h3>Image Classification for Pap Smear</h3><p>This project trains Convolutional Neural Network (CNN) models with the publicly available image dataset SIPaKMeD 
-                            to classify normal/abnormal papsmear results.</p>
+                    <h3>Image Classification for Pap Smear - <a href="https://github.com/whhsu2/Pap-Smear" target="_blank" rel="noopener noreferrer" style={{fontWeight: "bold"}}>[github]</a></h3>
+                    <p>Cervical cancer is the third most common cancer worldwide for women. One of the methods of preventing cervical cancer is frequent screening with pap smear test. This project trains Convolutional Neural Network (CNN) models with the publicly available image dataset SIPaKMeD 
+                            to classify normal/abnormal papsmear results. We trained VGG-11, Resnet-18, Resnet-50 and Resnet-101. Accomplished 94% classification accuracy with Resnet-50.</p>
                     </div>
                 </div>
                 <div className="project-item">
                     <img style={imgStyle} src={python} alt="Python"></img>
                     <div className="project-text">
-                        <h3>Python Library Development: Automatic Differentiation</h3>
+                        <h3>Python Library Development: Automatic Differentiation - <a href="https://github.com/CS207-Feiyu-Group8/cs207-FinalProject" target="_blank" rel="noopener noreferrer" style={{fontWeight: "bold"}}>[github]</a></h3>
                         <p>
-                        The goal of this project was to develop a Python library that can perform automatic differentiation (AD): a computational method for solving derivatives. Before automatic differentiation, computational solutions to derivatives either involved taking finite differences (lacking in precision), or performing symbolic differentiation (lacking in speed). In short, AD provides the best of both worlds, computing derivates extremely quickly and to machine precision. 
-                        One incredibly important application of the derivative is optimization. Machines are able to traverse gradients iteratively through calculations of derivatives. However, in machine learning applications, it is possible to have millions of parameters for a given neural network, which leads to a combinatorially onerous number of derivatives to compute analytically. Furthermore, finite difference methods can lead to truncation errors that are orders of magnitude greater than machine precision.
-                        In this webpage we shall provide a background for understanding how AD works, then move on to revealing our library structure and implementation, and finally presenting a few use cases with working examples of the library in action. 
-                        As a final note, we chose the name of our package to be Dotua, which is (autoD) backwards. 
+                        Differentiation forms the core of both traditional statistics methods such as Maximum-Likelihood Estimators, and leading edge methods in machine learning such as neural networks and sampling. 
+                        We developed a Python library that can perform automatic differentiation (AD), a computational method for solving derivatives. A common problem in these fields is the need to take the gradient 
+                        of an arbitrary function, which may not have a closed form analytical solution. Our package, autodiffy, addresses this by providing forward-mode automatic differentiation. 
+                        Written in Python, it evaluates both the value of a user-supplied function and its derivative at a given point.
                         </p>
                     </div>
 

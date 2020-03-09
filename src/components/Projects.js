@@ -18,7 +18,7 @@ const Projects = () => {
                         <img style={imgStyle} src={slither} alt="Slither"></img>
                         <h2>Slither.io</h2>
                         <a href="https://github.com/whhsu2/slither.io_ReinforcementLearning" target="_blank" rel="noopener noreferrer" style={{fontWeight: "bold"}}>github</a>
-                        <p>I implemented a reinforcement learning agent using OpenAI's Universe and Gym libraries to 
+                        <p>We implemented a reinforcement learning agent using OpenAI's Universe and Gym libraries to 
                          play an online multi-player game - <a href="http://slither.io/" target="_blank" rel="noopener noreferrer">Slither.io</a> </p>
                     </div>
                     <div className="img-with-text">

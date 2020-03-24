@@ -27,6 +27,7 @@ class Menu extends Component {
 
   render() {
     console.log(this.state.display)
+    console.log("come on bitch")
     return (
       <div className="dropdown">
         <button className="dropbtn" id="dropbtn" onClick={this.showMenu}>

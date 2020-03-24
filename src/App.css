@@ -387,3 +387,11 @@ a {
   text-align: left;
   top: -10px;
 }
+
+.project-img {
+  border-radius: 50%;
+  width: 13vw;
+  height: 25vh;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .8);
+  margin-right: 50px;
+}

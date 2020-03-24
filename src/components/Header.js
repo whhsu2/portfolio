@@ -3,6 +3,7 @@ import mount from '../assets/mount2.jpg'
 import profile from '../assets/profile.png'
 import Menu from './Menu'
 import { gray } from 'ansi-colors';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
 const HeaderStyle = {
     imgStyle: {
@@ -26,6 +27,7 @@ const Header = () => {
                 <a href="https://twitter.com/morris754" rel="noopener noreferrer" target="_blank"><i className="fa fa-twitter link"></i></a>
                 <a href="https://github.com/whhsu2" rel="noopener noreferrer" target="_blank"><i className="fa fa-github link"></i></a>
                 <a href="https://www.facebook.com/profile.php?id=100001478117298" rel="noopener noreferrer" target="_blank"><i className="fa fa-facebook link"></i></a>
+                <a href="mailto:morris754@gmail.com"><i className="fa fa-envelope link"></i></a>
             </div>
         </div>
 

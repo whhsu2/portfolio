@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './components/Home';
 import projectList from './components/projectList'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";

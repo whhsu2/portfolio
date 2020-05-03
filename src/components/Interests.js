@@ -3,7 +3,7 @@ import StraightenIcon from '@material-ui/icons/Straighten';
 
 const Interests = () => {
     return (
-        <div className="interests">
+        <div className="interests section">
             <div className="title">Interests</div>
             <div className="interest-container">
                 <div className="interest-box">

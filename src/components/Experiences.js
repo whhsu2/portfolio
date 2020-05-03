@@ -1,10 +1,11 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import smp from '../assets/smp.jpg'
+import harvard from '../assets/harvard.png'
 import igem from '../assets/igem.png'
 import gaj from '../assets/gaj.png'
 import aetna from '../assets/aetna.jpeg'
+import nctu from '../assets/NCTU.png'
 import CheckBoxIcon from '@material-ui/icons/CheckBox';
 
 const vertical= {
@@ -19,7 +20,7 @@ const imgStyle = {
 
 const Experiences = () => {
     return (
-        <div className="experience">
+        <div className="experience section">
             <div style={{textAlign: "center"}}> 
                 <div className="title">Experiences</div>
             </div>
@@ -33,10 +34,24 @@ const Experiences = () => {
                 >
                     <h3 className="vertical-timeline-element-title">Data Engineer</h3>
                     <h4 className="vertical-timeline-element-subtitle">Aetna: Analytic &amp; Behavioral Change</h4>
-                    <ul>
-                        <li><CheckBoxIcon className="check"></CheckBoxIcon> Implemented Multi-Armed-Bandit Algorithm to dynamically allocate members to better performing email subject lines.</li>
+                    <ul style={{padding: 0}}>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Implemented Multi-Armed-Bandit Algorithm to dynamically allocate members to better performing email subject lines.</li>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>Developed ETL pipelines using Pyspark to transform member data and stored member and system data with Hive and MySQL.</li>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>Increased cost saving per email of $52 by launching our project into production.</li>
+                    </ul>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    date="2018.8 - 2019.12"
+                    iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
+                    icon={<img style = {imgStyle} src={harvard} alt="Avatar"/>}
+                >
+                    <h3 className="vertical-timeline-element-title">Master of Science</h3>
+                    <h4 className="vertical-timeline-element-subtitle">M.S. of Health Data Science</h4>
+                    <ul style={{padding: 0}}>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Implemented a reinforcement learning agent using OpenAI's Universe and Gym libraries to play an online multi-player game - Slither.io</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Developed a Python library that can perform automatic differentiation (AD), a computational method for solving derivatives</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Implemented Convolutional Neural Network(CNN) to classify papsmear results.</li>
                     </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -47,12 +62,11 @@ const Experiences = () => {
                 >
                     <h3 className="vertical-timeline-element-title">Co-Founder</h3>
                     <h4 className="vertical-timeline-element-subtitle">GAJ - We Love NBA</h4>
-                    <ul>
+                    <ul style={{padding: 0}}>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>Started a basketball Fanpage with my brother that reached 39,000 likes on Facebook.</li>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>First Taiwanese basketball fanpage to interview an ESPN analyst.</li>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>Distributed our content on Youtube, Podcast, BlogPost</li>
                     </ul>
-
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -62,7 +76,7 @@ const Experiences = () => {
                 >
                     <h3 className="vertical-timeline-element-title">Researcher &amp; Key Presenter</h3>
                     <h4 className="vertical-timeline-element-subtitle">iGEM competition</h4>
-                    <ul>
+                    <ul style={{padding: 0}}>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon><a href="http://2015.igem.org/Team:NCTU_Formosa">Project Website</a></li>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>Design pre-diagnosis for targeted drug.</li>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>Improve precision of breast cancer targeted drugs by producing synthesized protien with E.coli as 
@@ -72,15 +86,15 @@ const Experiences = () => {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="2014.7 - 2014.9"
+                    date="2013.9 - 2018.1"
                     iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
-                    icon={<img style = {imgStyle} src={smp} alt="Avatar"/>}
+                    icon={<img style = {imgStyle} src={nctu} alt="Avatar"/>}
                 >
-                    <h3 className="vertical-timeline-element-title">R &amp; D Intern</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Simplo Technology</h4>
-                    <ul>
-                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Simplo currently has the most share of the global market of batteries and they are also the major supplier of Apple.</li>
-                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Designed circuit boards for a lithium battery and performed full battery quality check.</li>
+                    <h3 className="vertical-timeline-element-title">Bachelor of Science</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Honors Program of Nano Science and Engineering</h4>
+                    <ul style={{padding: 0}}>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>This program aims to develop students in nanobiology, nanomaterials, nanoelectronics and nanophotonics.</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>The goal of this program is to foster interdisciplinary talents, I focused in nanobiology and nanoelectronics.</li>
                     </ul>
                 </VerticalTimelineElement>
             </VerticalTimeline>

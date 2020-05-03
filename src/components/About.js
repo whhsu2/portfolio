@@ -3,23 +3,11 @@ import HDS from '../assets/HDS.png'
 import family from '../assets/family.png'
 import friends from '../assets/friends.png'
 
-const styles = {
-    images: {
-        display: "flex",
-        flexDirection: "row",
-        flexWrap: "wrap",
-        justifyContent: "space-evenly",
-        alignContent: "space-around",
-        margin: "40px auto"
-    }
-};
-
 const About = () => {
-    const classes = styles
     return (
-        <div className="about"> 
-            <div className="title">My About</div>
-            <div style = {classes.images}>
+        <div className="about section"> 
+            <div className="title">About Me</div>
+            <div className="image-wrapper">
                 <div className="image-container">
                     <img src={HDS} alt="Health Data Science" ></img>
                     <div className="image-caption">
@@ -46,10 +34,7 @@ const About = () => {
                 <p>
                     <a href="https://drive.google.com/open?id=1PQM_YIBgDa_5FwIjuSnJA5nOODuhd9dG">Resume</a>
                 </p>
-                
-            </div> 
-
-            
+            </div>       
         </div>
         
     )

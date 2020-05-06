@@ -46,8 +46,8 @@ const Experiences = () => {
                     iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
                     icon={<img style = {imgStyle} src={harvard} alt="Avatar"/>}
                 >
-                    <h3 className="vertical-timeline-element-title">Master of Science</h3>
-                    <h4 className="vertical-timeline-element-subtitle">M.S. of Health Data Science</h4>
+                    <h3 className="vertical-timeline-element-title">M.S. of Health Data Science</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Harvard University</h4>
                     <ul style={{padding: 0}}>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>Implemented a reinforcement learning agent using OpenAI's Universe and Gym libraries to play an online multi-player game - Slither.io</li>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>Developed a Python library that can perform automatic differentiation (AD), a computational method for solving derivatives</li>
@@ -65,7 +65,7 @@ const Experiences = () => {
                     <ul style={{padding: 0}}>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>Started a basketball Fanpage with my brother that reached 39,000 likes on Facebook.</li>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>First Taiwanese basketball fanpage to interview an ESPN analyst.</li>
-                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Distributed our content on Youtube, Podcast, BlogPost</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Distributed our content on Youtube, Podcast, BlogPost. Link to <a href="https://www.facebook.com/GAJWeLoveNBA/?ref=page_internal">Fanpage</a></li>
                     </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -90,8 +90,8 @@ const Experiences = () => {
                     iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
                     icon={<img style = {imgStyle} src={nctu} alt="Avatar"/>}
                 >
-                    <h3 className="vertical-timeline-element-title">Bachelor of Science</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Honors Program of Nano Science and Engineering</h4>
+                    <h3 className="vertical-timeline-element-title">Honors Program of Nano Science and Engineering</h3>
+                    <h4 className="vertical-timeline-element-subtitle">NCTU</h4>
                     <ul style={{padding: 0}}>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>This program aims to develop students in nanobiology, nanomaterials, nanoelectronics and nanophotonics.</li>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>The goal of this program is to foster interdisciplinary talents, I focused in nanobiology and nanoelectronics.</li>

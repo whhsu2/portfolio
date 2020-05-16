@@ -15,7 +15,6 @@ const Header = () => {
     const classes = HeaderStyle
     return (
         <div class="header">
-            <Menu />
             <img style = {classes.imgStyle} src={profile} alt="Avatar"/>
             <h1 style={{marginBottom: "-5px", color: "#004466"}}>Morris Hsu</h1>
             <div style={{ paddingTop: "16px",paddingBottom: "25px", fontSize: 15, color: "#004466", fontWeight: 500 }}>Just a Kid from Taiwan. Now Data Engineer @ Aetna</div>

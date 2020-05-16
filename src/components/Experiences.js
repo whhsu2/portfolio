@@ -65,7 +65,7 @@ const Experiences = () => {
                     <ul style={{padding: 0}}>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>Started a basketball Fanpage with my brother that reached 39,000 likes on Facebook.</li>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>First Taiwanese basketball fanpage to interview an ESPN analyst.</li>
-                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Distributed our content on Youtube, Podcast, BlogPost. Link to <a href="https://www.facebook.com/GAJWeLoveNBA/?ref=page_internal">Fanpage</a></li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon><div>Distributed our content on Youtube, Podcast, BlogPost. Link to <a href="https://www.facebook.com/GAJWeLoveNBA/?ref=page_internal"> Fanpage</a></div></li>
                     </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

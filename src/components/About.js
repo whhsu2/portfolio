@@ -29,8 +29,13 @@ const About = () => {
             </div>
             <div className="me">
                 <p>I just graduated from Harvard Health Data Science program and currently am working at Aetna as a Data Engineer.
-                I am interested in the intersection of technology and healthcare to provide healthier future. In addition to work, 
-                I'm currently learning piano, hopefully to become a jazz pianist one day.</p>
+                I am interested in the intersection of technology and healthcare to deliver healthier outcomes. 
+                </p>
+                <p>
+                In leasure time, I wrtie some full stack and front end projects. Besides coding, I started to learn Piano at the age of 24,  
+                without even knowing how to read sheet music. Inspired by FKJ, a french multi-instrumentalist, my goal is to be able to play Jazz piano at my own Jazz Bar.
+                </p>
+
                 <p>
                     <a href="https://drive.google.com/open?id=1PQM_YIBgDa_5FwIjuSnJA5nOODuhd9dG">Resume</a>
                 </p>

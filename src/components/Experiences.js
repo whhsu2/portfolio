@@ -93,8 +93,8 @@ const Experiences = () => {
                     <h3 className="vertical-timeline-element-title">Honors Program of Nano Science and Engineering</h3>
                     <h4 className="vertical-timeline-element-subtitle">NCTU</h4>
                     <ul style={{padding: 0}}>
-                        <li><CheckBoxIcon className="check"></CheckBoxIcon>This program aims to develop students in nanobiology, nanomaterials, nanoelectronics and nanophotonics.</li>
-                        <li><CheckBoxIcon className="check"></CheckBoxIcon>The goal of this program is to foster interdisciplinary talents, I focused in nanobiology and nanoelectronics.</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>This program aims to develop interdisciplinary students in biology, materials, electronics and photonics.</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>As an undergrad, I focused on biosensors based on semiconductors.</li>
                     </ul>
                 </VerticalTimelineElement>
             </VerticalTimeline>

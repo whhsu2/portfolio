@@ -32,7 +32,7 @@ const About = () => {
                 I am interested in the intersection of technology and healthcare to deliver healthier outcomes. 
                 </p>
                 <p>
-                In leasure time, I wrtie some full stack and front end projects. Besides coding, I started to learn Piano at the age of 24,  
+                In leasure time, I write some full stack and front end projects. Besides coding, I started to learn Piano at the age of 24,  
                 without even knowing how to read sheet music. Inspired by FKJ, a french multi-instrumentalist, my goal is to be able to play Jazz piano at my own Jazz Bar.
                 </p>
 

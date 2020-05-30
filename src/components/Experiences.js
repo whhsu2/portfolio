@@ -94,7 +94,7 @@ const Experiences = () => {
                     <h4 className="vertical-timeline-element-subtitle">NCTU</h4>
                     <ul style={{padding: 0}}>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>This program aims to develop interdisciplinary students in biology, materials, electronics and photonics.</li>
-                        <li><CheckBoxIcon className="check"></CheckBoxIcon>As an undergrad, I focused on biosensors based on semiconductors.</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>As an undergrad, I research focused on biosensors based on semiconductors.</li>
                     </ul>
                 </VerticalTimelineElement>
             </VerticalTimeline>

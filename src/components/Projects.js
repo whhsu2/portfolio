@@ -3,6 +3,7 @@ import slither from '../assets/slither.gif'
 import pap from '../assets/pap.png'
 import py from '../assets/python2.png'
 import survey from '../assets/survey.jpg'
+import chat from '../assets/chat.png'
 
 const Projects = () => {
     return (
@@ -34,6 +35,12 @@ const Projects = () => {
                         <h3>Email Survey App</h3>
                         <a href="https://desolate-plateau-73931.herokuapp.com/" target="_blank" rel="noopener noreferrer" style={{fontWeight: "bold"}}>demo</a>
                         <p>This is a full stack application that sends email surveys and collects responses. It is built using react, redux, stripe and mongodb.</p>
+                    </div>   
+                    <div className="img-with-text">
+                        <div style={{backgroundImage: `url(${chat})`, backgroundPosition: "center", backgroundSize: "300px 300px"}} className="project-image"></div>
+                        <h3>Message Morris</h3>
+                        <a href="https://message-morris.herokuapp.com/login" target="_blank" rel="noopener noreferrer" style={{fontWeight: "bold"}}>demo</a>
+                        <p>This is a chat app I built for fun and to explore Ruby on Rails 6 and Action Cable. Users can sign up/log in with a username and chat in the chat room.</p>
                     </div>                 
                 </div>
             </div>        

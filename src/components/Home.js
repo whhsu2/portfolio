@@ -3,6 +3,7 @@ import About from './About'
 import Experiences from './Experiences'
 import Header from './Header'
 import Projects from './Projects'
+import ChatBot from './Chatbot';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <About />
             <Experiences />
             <Projects />
+            <ChatBot/>
         </div>
     );
 };

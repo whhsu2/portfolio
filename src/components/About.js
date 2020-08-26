@@ -35,7 +35,6 @@ const About = () => {
                 <p>
                 In leasure time, I write some full stack and front end projects. Besides coding, I started to learn Piano and reading sheet music since the quarantine.
                 Inspired by FKJ, a french multi-instrumentalist, my goal is to be able to play Jazz piano at my own Jazz Bar.
-                Also I enjoy playing first 
                 </p>
 
                 <p>

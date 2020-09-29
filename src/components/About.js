@@ -33,7 +33,7 @@ const About = () => {
                 Since then, I have taken a huge pivot, now I am working on digitizing the healthcare experience. 
                 </p>
                 <p>
-                In leasure time, I write some full stack and front end projects. Besides coding, I started to learn Piano and reading sheet music since the quarantine.
+                In leasure time, I write about random stuff that I'm interested in (<a href="https://medium.com/@morrishsu_94479" style={{fontSize: "15px"}}>my blog posts</a>).  I write some full stack and front end projects. Besides coding, I started to learn Piano and reading sheet music since the quarantine.
                 Inspired by FKJ, a french multi-instrumentalist, my goal is to be able to play Jazz piano at my own Jazz Bar.
                 </p>
 

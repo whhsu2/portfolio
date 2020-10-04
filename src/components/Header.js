@@ -17,7 +17,7 @@ const Header = () => {
         <div class="header">
             <img style = {classes.imgStyle} src={profile} alt="Avatar"/>
             <h1 className="name">Morris Hsu</h1>
-            <div className="intro">Just a Kid from Taiwan. Now Data Engineer @ Aetna</div>
+            <div className="intro">Just a Kid from Taiwan. Now Software Engineer @ Aetna</div>
             <div className="links" >
                 <a href="https://www.linkedin.com/in/morris-hsu-657307bb/" rel="noopener noreferrer" target="_blank"><i className="fa fa-linkedin link"></i></a> 
                 <a href="https://twitter.com/morris754" rel="noopener noreferrer" target="_blank"><i className="fa fa-twitter link"></i></a>

@@ -32,7 +32,7 @@ const Experiences = () => {
                     iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
                     icon={<img style = {imgStyle} src={aetna} alt="Avatar"/>}
                 >
-                    <h3 className="vertical-timeline-element-title">Data Engineer</h3>
+                    <h3 className="vertical-timeline-element-title">Software Engineer</h3>
                     <h4 className="vertical-timeline-element-subtitle">Aetna: Analytic &amp; Behavioral Change</h4>
                     <ul style={{padding: 0}}>
                         <li><CheckBoxIcon className="check"></CheckBoxIcon>Implemented Multi-Armed-Bandit Algorithm to dynamically allocate members to better performing email subject lines.</li>

@@ -36,10 +36,6 @@ const About = () => {
                 In leasure time, I write about random stuff that I'm interested in (<a href="https://medium.com/@morrishsu_94479" style={{fontSize: "15px"}}>my blog posts</a>).  I write some full stack and front end projects. Besides coding, I started to learn Piano and reading sheet music since the quarantine.
                 Huge fan of FKJ ( French Kiwi Juice).
                 </p>
-
-                <p>
-                    <a href="https://drive.google.com/open?id=1PQM_YIBgDa_5FwIjuSnJA5nOODuhd9dG">Resume</a>
-                </p>
             </div>       
         </div>
         

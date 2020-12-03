@@ -35,9 +35,10 @@ const Experiences = () => {
                     <h3 className="vertical-timeline-element-title">Software Engineer</h3>
                     <h4 className="vertical-timeline-element-subtitle">Aetna: Analytic &amp; Behavioral Change</h4>
                     <ul style={{padding: 0}}>
-                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Implemented Multi-Armed-Bandit Algorithm to dynamically allocate members to better performing email subject lines.</li>
-                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Developed ETL pipelines using Pyspark to transform member data and stored member and system data with Hive and MySQL.</li>
-                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Increased cost saving per email of $52 by launching our project into production.</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Increased member engagement by implementing Multi-Armed-Bandit Algorithm to dynamically allocate members to better performing
+outreach methods.</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Built dashboard using React and NodeJS for users of Multi-Arm Bandit to monitor and tune the performance of the algorithm.</li>
+                        <li><CheckBoxIcon className="check"></CheckBoxIcon>Increased total member behavior change rate by implementing a microservice to construct a personalized journey for each member.</li>
                     </ul>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
